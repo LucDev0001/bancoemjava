@@ -6,7 +6,7 @@ public class ContaBanco {
     public static void main(String[] args) {
         String cadastro = """
                 *****************************************
-                | Seja bem vindo ao Nosso Bank Java Of One! |
+                | Seja bem vindo ao  Bank  Of  java One! |
                 *****************************************
                 """;
 
@@ -18,9 +18,9 @@ public class ContaBanco {
         String nomeCliente = scanner.nextLine();
 
         System.out.println("Digite Sua idade:");
-        int idade = scanner.nextInt();
+        int idadeCliente = scanner.nextInt();
 
-        if (idade < 18) {
+        if (idadeCliente < 18) {
             System.out.println("Desculpe, é necessário ser maior que 18 anos para se cadastrar.");
         } else {
             System.out.println("Cadastro realizado com sucesso:");
